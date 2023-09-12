@@ -423,13 +423,5 @@ return [
     'Session' => [
         'defaults' => 'php',
     ],
-    'Cors' => [
-        'AllowOrigin' => true,
-        'AllowCredentials' => true,
-        'AllowMethods' => ['GET', 'POST', 'PUT', 'PATCH', 'DELETE'], // accept all HTTP methods
-        'AllowHeaders' => true, // accept all headers
-        'ExposeHeaders' => false, // don't accept personal headers
-        'MaxAge' => false, // cache for 1 day
-        'exceptionRenderer' => false, // Use Exeptio
-    ]
+   
 ];
